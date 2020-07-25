@@ -82,7 +82,46 @@
                 android:text="sign in"
                 android:textStyle="bold" />
 
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="USUARIO:"
+                    android:scaleType="fitCenter"/>
+
+                <TextView android:layout_weight="1"
+                    android:id="@+id/altura1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mochila@sancan.com"
+                    android:scaleType="fitCenter"/>
+
+                <TextView android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CONTRASEÑA:"
+                    android:scaleType="fitCenter"/>
+
+                <TextView android:layout_weight="1"
+                    android:id="@+id/anchura2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="examen"
+                    android:scrollbars="vertical"
+                    android:scaleType="fitCenter"/>
+
+
+
+            </LinearLayout>
+
         </LinearLayout>
+
+
 
     </ScrollView>
 

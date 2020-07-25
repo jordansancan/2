@@ -3,36 +3,46 @@
     <class name="user">
         <object Id="067e6162-3b6f-4ae2-a171-2470b63dff00">
             <properties>
-                <property name="email"><![CDATA[movil@facci.com]]></property>
-                <property name="password"><![CDATA[hello]]></property>
+                <property name="email"><![CDATA[mochila@sancan.com]]></property>
+                <property name="password"><![CDATA[examen]]></property>
             </properties>
         </object>
     </class>
     <class name="item">
         <object Id="067e6162-3b6f-4ae2-a171-2470b63dff01">
             <properties>
-                <property name="type"><![CDATA[console]]></property>
-                <property name="name"><![CDATA[PS4 console]]></property>
-                <property name="description"><![CDATA[Enjoy the latest Playstation 4 games, accessories, and more. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text end]]></property>
-                <property name="price"><![CDATA[350.90]]></property>
-                <property name="image"><![CDATA[067e6162-3b6f-4ae2-a171-2470b63dff10.jpg]]></property>
+                <property name="type"><![CDATA[Mochila]]></property>
+                <property name="name"><![CDATA[Mochila1]]></property>
+                <property name="description"><![CDATA[mochila que protege del agua las cosas de adentro estaran protegidas en caso de lluvia]]></property>
+                <property name="serie"><![CDATA[00002]]></property>
+                <property name="marca"><![CDATA[nike]]></property>
+                <property name="modelo"><![CDATA[ls202]]></property>
+                <property name="price"><![CDATA[90.00]]></property>
+                <property name="tipo"><![CDATA[mochilas]]></property>
+                <property name="image"><![CDATA[067e6162-3b6f-4ae2-a171-2470b63dff11.jpg]]></property>
             </properties>
         </object>
         <object Id="067e6162-3b6f-4ae2-a171-2470b63dff02">
             <properties>
-                <property name="type"><![CDATA[console]]></property>
-                <property name="name"><![CDATA[Xbox One + Gears Of War]]></property>
-                <property name="description"><![CDATA[Buy the Xbox One console – an all-in-one entertainment system. . More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text end]]></property>
-                <property name="price"><![CDATA[295.0]]></property>
-                <property name="image"><![CDATA[067e6162-3b6f-4ae2-a171-2470b63dff11.jpg]]></property>
+                <property name="type"><![CDATA[Mochila]]></property>
+                <property name="name"><![CDATA[Mochila2]]></property>
+                <property name="description"><![CDATA[mochila con diferentes puertos usb para el cliente​]]></property>
+                <property name="serie"><![CDATA[000001]]></property>
+                <property name="marca"><![CDATA[Totto]]></property>
+                <property name="modelo"><![CDATA[20Sl]]></property>
+                <property name="price"><![CDATA[70.00]]></property>
+                <property name="image"><![CDATA[067e6162-3b6f-4ae2-a171-2470b63dff10.jpg]]></property>
             </properties>
         </object>
         <object Id="067e6162-3b6f-4ae2-a171-2470b63dff03">
             <properties>
-                <property name="type"><![CDATA[skate]]></property>
-                <property name="name"><![CDATA[SKATE MID 5 ROBOT]]></property>
-                <property name="description"><![CDATA[Better way to shop for skateboards. ... one of the largest retailer of skateboards at our Historic Old Mill Warehouse in Bend, Oregon USA.. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text. More and more text end]]></property>
-                <property name="price"><![CDATA[39.90]]></property>
+                <property name="type"><![CDATA[Mochila]]></property>
+                <property name="name"><![CDATA[Mochila3]]></property>
+                <property name="description"><![CDATA[es una mochila muy ligera y con un buen diseño para jovenes a la moda]]></property>
+                <property name="serie"><![CDATA[000003]]></property>
+                <property name="marca"><![CDATA[Navis]]></property>
+                <property name="modelo"><![CDATA[12ps90]]></property>
+                <property name="price"><![CDATA[65.00]]></property>
                 <property name="image"><![CDATA[067e6162-3b6f-4ae2-a171-2470b63dff12.jpg]]></property>
             </properties>
         </object>

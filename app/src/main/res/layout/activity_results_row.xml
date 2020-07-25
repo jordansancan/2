@@ -35,5 +35,62 @@
             android:textAppearance="@android:style/TextAppearance.Holo.Small"
             android:layout_marginLeft="?android:attr/listPreferredItemPaddingLeft"/>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card price"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_below="@+id/price"
+        android:orientation="vertical"
+        android:textAppearance="@android:style/TextAppearance.Holo.Small"
+        android:layout_marginLeft="?android:attr/listPreferredItemPaddingLeft">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero de serie:"/>
+        <TextView
+            android:id="@+id/serie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marca:"/>
+        <TextView
+            android:id="@+id/marca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo:"/>
+        <TextView
+            android:id="@+id/modelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tipo:"/>
+        <TextView
+            android:id="@+id/tipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
 
     </RelativeLayout>

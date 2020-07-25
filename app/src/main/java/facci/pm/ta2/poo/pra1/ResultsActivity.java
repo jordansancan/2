@@ -1,5 +1,6 @@
 package facci.pm.ta2.poo.pra1;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -32,7 +33,6 @@ public class ResultsActivity extends AppCompatActivity implements  ListView.OnIt
         mListView = (ListView) findViewById(R.id.listView);
         mProgressView = findViewById(R.id.progress);
 
-
         mListView.setOnItemClickListener(this);
 
         showProgress(true);
@@ -56,35 +56,28 @@ public class ResultsActivity extends AppCompatActivity implements  ListView.OnIt
                     }
                 } else {
                     // Error
-
                 }
             }
         });
         // FIN - CODE3
         // ************************************************************************
-
-
     }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position,
                             long id) {
-
-
         // INICIO - CODE5
         //
         DataObject object = (DataObject) m_adapter.m_array.get(position);
-
+        Intent intent = new Intent(this,DetailActivity.class);
+        intent.putExtra("object_id",object.m_objectId);
+        startActivity(intent);
         // FIN - CODE5
-
-
     }
 
     private void showProgress(final boolean show) {
-
         mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
         mListView.setVisibility(show ? View.GONE : View.VISIBLE);
-
     }
 
 

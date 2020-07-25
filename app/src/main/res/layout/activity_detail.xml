@@ -26,6 +26,115 @@
                 android:layout_height="150dip"
                 android:scaleType="fitCenter"/>
         </TableRow>
+        <TableRow>
+            <TextView android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="PRECIO"
+                android:textAppearance="@android:style/TextAppearance.Holo.Small"/>
+        </TableRow>
+        <TableRow >
+            <TextView android:layout_weight="1"
+                android:id="@+id/price"
+                android:textColor="@color/precioRojo"
+                android:layout_width="match_parent"
+                android:scaleType="fitCenter"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="DESCRIPCIÓN"
+                android:textAppearance="@android:style/TextAppearance.Holo.Small"/>
+        </TableRow>
+
+        <TableRow >
+            <TextView android:layout_weight="1"
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="150dip"
+                android:scrollbars="vertical"
+                android:scaleType="fitCenter"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="PROPIEDADES"
+                android:textAppearance="@android:style/TextAppearance.Holo.Small"/>
+        </TableRow>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SERIE:"
+                android:scaleType="fitCenter"/>
+
+            <TextView android:layout_weight="1"
+                android:id="@+id/serie1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:scaleType="fitCenter"/>
+
+            <TextView android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARCA:"
+                android:scaleType="fitCenter"/>
+
+            <TextView android:layout_weight="1"
+                android:id="@+id/marca2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:scrollbars="vertical"
+                android:scaleType="fitCenter"/>
+
+            <TextView android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MODELO:"
+                android:scaleType="fitCenter"/>
+
+            <TextView android:layout_weight="1"
+                android:id="@+id/modelo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="altura"
+                android:scrollbars="vertical"
+                android:scaleType="fitCenter"/>
+
+            <TextView android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:scaleType="fitCenter"/>
+
+            <TextView android:layout_weight="1"
+                android:id="@+id/sistema4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:scrollbars="vertical"
+                android:scaleType="fitCenter"/>
+
+        </LinearLayout>
+
+
+
+
+
 
     </TableLayout>
 
